@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="exp5.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Employee Management System</h2>
+
+<label>Employee Name</label>
+<br>
+<input type="text" id="name" placeholder="Enter employee name">
+
+<br>
+
+<label>Employee ID</label>
+<br>
+<input type="number" id="id" placeholder="Enter employee ID">
+
+<br>
+
+<label>Salary</label>
+<br>
+<input type="number" id="salary" placeholder="Enter salary">
+
+<br>
+
+<label>Department</label>
+<br>
+<input type="text" id="department" placeholder="Enter department">
+
+<br><br>
+
+<button onclick="addEmployee()">Add Employee</button>
+
+<button onclick="displayEmployees()">Display All</button>
+
+<button onclick="filterSalary()">Salary > 50000</button>
+
+<br>
+
+<button onclick="totalSalary()">Total Salary</button>
+
+<button onclick="averageSalary()">Average Salary</button>
+
+<button onclick="countDepartment()">Count by Department</button>
+
+<br><br>
+
+<div id="output"></div>
+
+</div>
+
+<div class="footer">
+
+Name - sanvi chaurasia 
+<br>
+Class - CSE  
+<br>
+Roll No - 2503201001003
+
+</div>
+
+<!-- Link JavaScript -->
+<script src="exp5script.js"></script>
+
+</body>
+</html>
